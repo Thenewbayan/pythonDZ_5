@@ -10,6 +10,7 @@
 number_a=int(input("Enter number A: "))
 number_b=int(input("Enter number B: "))
 def get_summ_recurs(numb_A, numb_B):
+     '''Функция принимает два числа и находит их сумму уменьшением/увеличением каждого на 1'''
      if numb_B==0: return numb_A
      return (numb_A+1)+(numb_B-1)
 
